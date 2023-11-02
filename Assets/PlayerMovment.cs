@@ -25,7 +25,6 @@ public class PlayerMovment : MonoBehaviour
     {
         float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
-        Debug.Log(moveX);
         float moveAnim = new Vector2(moveX, moveZ).magnitude;
 
         Vector3 movement = new Vector3(moveX, -1, moveZ);
@@ -36,6 +35,8 @@ public class PlayerMovment : MonoBehaviour
     void Rotation()
     {
         float rotationInput = Input.GetAxis("Mouse X") * rotationSpeed;
+        Debug.Log(rotationInput);
+
         transform.Rotate(Vector3.up, rotationInput);
     }
 

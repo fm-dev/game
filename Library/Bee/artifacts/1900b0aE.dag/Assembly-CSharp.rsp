@@ -361,8 +361,11 @@
 "Assets/BasicBandit/DemoSceneBasicBandit/Scripts/ButtonFunction.cs"
 "Assets/BasicBandit/DemoSceneBasicBandit/Scripts/MovementCamera.cs"
 "Assets/DeepZone/3 PSD logo Templates/Sample/Swiitch.cs"
+"Assets/FollowTarget.cs"
 "Assets/Fonts/Script/scriptTexttest.cs"
+"Assets/NavigasiMenu.cs"
 "Assets/PlayerMovment.cs"
+"Assets/SpawnMusuh.cs"
 -langversion:9.0
 
 /deterministic

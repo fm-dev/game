@@ -1176,7 +1176,7 @@ GameObject:
   - component: {fileID: 5195508543922700134}
   m_Layer: 0
   m_Name: Basic_Bandit
-  m_TagString: Untagged
+  m_TagString: musuh
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1235,7 +1235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTag: Player
   rotationSpeed: 5
-  speed: 20
+  speed: 50
 --- !u!54 &28021867839503002
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1279,7 +1279,7 @@ NavMeshAgent:
   m_Acceleration: 15
   avoidancePriority: 50
   m_AngularSpeed: 180
-  m_StoppingDistance: 0.1
+  m_StoppingDistance: 2
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1

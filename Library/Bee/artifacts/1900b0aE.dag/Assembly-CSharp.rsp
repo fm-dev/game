@@ -369,6 +369,7 @@
 "Assets/PertanyaanController.cs"
 "Assets/PertanyaanUi.cs"
 "Assets/PlayerMovment.cs"
+"Assets/ScoreManager.cs"
 "Assets/SpawnMusuh.cs"
 -langversion:9.0
 

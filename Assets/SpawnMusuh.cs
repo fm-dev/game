@@ -17,8 +17,10 @@ public class SpawnMusuh : MonoBehaviour
     {
         
     }
-    void SpawnObject()
+    public void SpawnObject()
     {
         Instantiate(objectToSpawn, spawnPoint.position, spawnPoint.rotation);
     }
+   
+    
 }

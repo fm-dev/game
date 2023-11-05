@@ -1,13 +1,54 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class PlayerMovment : MonoBehaviour
 {
     public float kecepatan;
     Rigidbody rb;
     Animator anim;
     public float rotationSpeed;
+    public Slider healthSlider; // Slider yang akan berkurang ketika pemain bersentuhan dengan musuh
+    public float maxHealth = 100f;
+    public float damageAmount = 10f;
+    public Canvas canvas;
+    void Start()
+    {
+        if (healthSlider != null)
+        {
+            healthSlider.maxValue = maxHealth;
+            healthSlider.value = maxHealth;
+        }
+        else
+        {
+            Debug.LogError("Health Slider is not assigned.");
+        }
+        canvas.enabled = false;
+    }
+     void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("musuh")) // Ganti "Enemy" dengan tag yang digunakan oleh musuh
+        {
+            ReduceHealth();
+            canvas.enabled = true;
+            Invoke("Berdarah", 2.0f);
+        }
+    }
+    void Berdarah(){
+        canvas.enabled = false;
+    }
+    void ReduceHealth()
+    {
+        if (healthSlider != null)
+        {
+            healthSlider.value -= damageAmount;
+            if (healthSlider.value <= 0)
+            {
+                // Game over atau logika kematian pemain di sini
+                Debug.Log("Game Over");
+            }
+        }
+    }
 
     private void Awake()
     {
@@ -35,7 +76,6 @@ public class PlayerMovment : MonoBehaviour
     void Rotation()
     {
         float rotationInput = Input.GetAxis("Mouse X") * rotationSpeed;
-        Debug.Log(rotationInput);
 
         transform.Rotate(Vector3.up, rotationInput);
     }

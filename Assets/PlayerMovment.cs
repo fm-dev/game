@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PlayerMovment : MonoBehaviour
 {
+    public float jumpForce = 5.0f;
     public float kecepatan;
     Rigidbody rb;
     Animator anim;
@@ -12,6 +13,7 @@ public class PlayerMovment : MonoBehaviour
     public float maxHealth = 100f;
     public float damageAmount = 10f;
     public Canvas canvas;
+    public Canvas gameOver;
     void Start()
     {
         if (healthSlider != null)
@@ -24,6 +26,7 @@ public class PlayerMovment : MonoBehaviour
             Debug.LogError("Health Slider is not assigned.");
         }
         canvas.enabled = false;
+        gameOver.enabled = false;
     }
      void OnTriggerEnter(Collider other)
     {
@@ -46,6 +49,7 @@ public class PlayerMovment : MonoBehaviour
             {
                 // Game over atau logika kematian pemain di sini
                 Debug.Log("Game Over");
+                gameOver.enabled = true;
             }
         }
     }
@@ -60,6 +64,14 @@ public class PlayerMovment : MonoBehaviour
     {
         Movement();
         Rotation();
+        if (Input.GetButtonDown("Jump")) // Menggunakan tombol "Space" untuk loncat
+        {
+            Jump();
+        }
+    }
+    void Jump()
+    {
+        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     }
 
     void Movement()

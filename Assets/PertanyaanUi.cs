@@ -10,9 +10,9 @@ public class PertanyaanUi : MonoBehaviour
     public GameObject objekLain; // Referensi ke objek lain yang memiliki Rigidbody
     private Rigidbody rbObjekLain;
     public ScoreManager scoreManager;
-    public int pointsToAdd = 10;
+    public int pointsToAdd = 100;
     public int section;
-    public string[] pertanyaanEasy = {
+    public string[] Easy = {
         "Apakah Abdurrahman Wahid presiden ketiga Republik Indonesia?",
         "Apakah MPR singkatan dari majelis Permusyawaratan Rakyat?", 
         "Apakah benar hari Pancasila pada tanggal 17 Agustus 1945", 
@@ -22,11 +22,19 @@ public class PertanyaanUi : MonoBehaviour
         "Malin Kundang merupakan cerita rakyat dari sumatera barat?",
         "CO2 merupakan oksigen?",
         "Tajmahal dari India?",
-        "Mata uang indonesia adalah rupiah?"
-
-
+        "Mata uang indonesia adalah rupiah?",
+        "Ikan bernafas dengan insang?",
+        "Indonesia dipimpin oleh presiden?",
+        "Ikan hidup diudara?",
+        "Indonesia merupakan populasi terbanyak no 1 didunia?",
+        "Buah mengandung vitamin C",
+        "4 sehat 5 sempurna, 5 sempurnanya adalah jus?",
+        "Pengetik naskah proklamasi adalah Sayuti Malik?",  
+        "Megawati presiden ke empat?",  
+        "Katak merupakan hewan amphibi?",  
+        "Herbivora adalah hewan pemakan daging"  
     };
-    public string[] jawabanEasy = {
+    public string[] jwbesey = {
         "Salah",
         "Benar",
         "Salah",
@@ -37,6 +45,16 @@ public class PertanyaanUi : MonoBehaviour
         "Salah",
         "Benar",
         "Benar",
+        "Benar",
+        "Benar",
+        "Salah",
+        "Salah",
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah"
     };
     public Text teksCanvas;
     public SpawnMusuh spawn, spawn2, spawn3, spawn4,spawn5,spawn6,spawn7,spawn8,spawn9;
@@ -50,7 +68,7 @@ public class PertanyaanUi : MonoBehaviour
     public int Score  = 0 ;
     public void Awake(){
         randomGenerator = new System.Random();
-        randomNumber = randomGenerator.Next(1, 10);
+        randomNumber = randomGenerator.Next(0, 17);
     }
     public void Start()
     {
@@ -61,16 +79,17 @@ public class PertanyaanUi : MonoBehaviour
     void Update ()
     {
         settingPertanyaan();
+        
     }
     void settingPertanyaan(){
-        
-        teksCanvas.text = pertanyaanEasy[randomNumber];
+        Debug.Log(randomNumber);
+        teksCanvas.text = Easy[randomNumber];
     }
     
     public void NonaktifkanCanvasOnClick()
     {
        
-        if(jawabanEasy[randomNumber] == "Benar")
+        if(jwbesey[randomNumber] == "Benar")
         {
             Score = Score + 100;
             spawn.SpawnObject();
@@ -130,11 +149,11 @@ public class PertanyaanUi : MonoBehaviour
         }
         rbObjekLain.isKinematic = false;
         canvas.enabled = false;
-        randomNumber = randomGenerator.Next(1, 4);
+        randomNumber = randomGenerator.Next(0, 17);
     }
     public void salahBtn()
     {
-        if(jawabanEasy[randomNumber] == "Salah")
+        if(jwbesey[randomNumber] == "Salah")
         {
             scoreManager.AddScore(pointsToAdd);
             spawn.SpawnObject();
@@ -159,6 +178,7 @@ public class PertanyaanUi : MonoBehaviour
                     rb.isKinematic = newIsKinematicValue;
                 }
             }
+            
         }
         else{
             Destroy(objekYangAkanDihancurkan);
@@ -187,6 +207,6 @@ public class PertanyaanUi : MonoBehaviour
         }
         rbObjekLain.isKinematic = false;
         canvas.enabled = false;
-        randomNumber = randomGenerator.Next(1, 4);
+        randomNumber = randomGenerator.Next(0, 17);
     }
 }

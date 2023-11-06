@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class PlayerMovment : MonoBehaviour
 {
     public float jumpForce = 5.0f;
@@ -14,6 +15,13 @@ public class PlayerMovment : MonoBehaviour
     public float damageAmount = 10f;
     public Canvas canvas;
     public Canvas gameOver;
+    public Canvas finish;
+    public string targetTag = "musuh";
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
+    }
     void Start()
     {
         if (healthSlider != null)
@@ -27,8 +35,12 @@ public class PlayerMovment : MonoBehaviour
         }
         canvas.enabled = false;
         gameOver.enabled = false;
+        finish.enabled = false;
+
+       
     }
-     void OnTriggerEnter(Collider other)
+    
+    void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("musuh")) // Ganti "Enemy" dengan tag yang digunakan oleh musuh
         {
@@ -36,10 +48,22 @@ public class PlayerMovment : MonoBehaviour
             canvas.enabled = true;
             Invoke("Berdarah", 2.0f);
         }
+        if(other.CompareTag("Finish")){
+            finish.enabled = true;
+            GameObject[] objectsToRemove = GameObject.FindGameObjectsWithTag(targetTag);
+            // Menghapus objek satu per satu
+            foreach (GameObject obj in objectsToRemove)
+            {
+                Destroy(obj);
+            }
+            Invoke("pindahKeGameOver", 3f);
+            
+        }
     }
     void Berdarah(){
         canvas.enabled = false;
     }
+
     void ReduceHealth()
     {
         if (healthSlider != null)
@@ -49,30 +73,34 @@ public class PlayerMovment : MonoBehaviour
             {
                 // Game over atau logika kematian pemain di sini
                 Debug.Log("Game Over");
+                
+                Invoke("pindahKeGameOver", 3f);
                 gameOver.enabled = true;
             }
         }
     }
-
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody>();
-        anim = GetComponent<Animator>();
+    void pindahKeGameOver(){
+        SceneManager.LoadScene("GameOver");    
     }
+
+
 
     void FixedUpdate()
     {
         Movement();
         Rotation();
-        if (Input.GetButtonDown("Jump")) // Menggunakan tombol "Space" untuk loncat
-        {
-            Jump();
-        }
+        // if (isMoving && !audioSource.isPlaying)
+        // {
+        //     audioSource.Play();
+        // }
+        // if (!isMoving && audioSource.isPlaying)
+        // {
+        //     audioSource.Stop();
+        // }
+       
+
     }
-    void Jump()
-    {
-        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-    }
+    
 
     void Movement()
     {
@@ -97,8 +125,7 @@ public class PlayerMovment : MonoBehaviour
         bool walking = h != 0f || v != 0f;
         bool rightrun = h == 1f;
         bool leftrun = h == -1f;
-/*        anim.SetBool("IsRight", rightrun);
-        anim.SetBool("IsLeft", leftrun);*/
         anim.SetBool("IsRun", walking);
     }
-}
+}   
+

@@ -365,12 +365,14 @@
 "Assets/DeepZone/3 PSD logo Templates/Sample/Swiitch.cs"
 "Assets/FollowTarget.cs"
 "Assets/Fonts/Script/scriptTexttest.cs"
+"Assets/HasiiScore.cs"
 "Assets/NavigasiMenu.cs"
 "Assets/PertanyaanController.cs"
 "Assets/PertanyaanUi.cs"
 "Assets/PlayerMovment.cs"
 "Assets/ScoreManager.cs"
 "Assets/SpawnMusuh.cs"
+"Assets/Timer.cs"
 -langversion:9.0
 
 /deterministic

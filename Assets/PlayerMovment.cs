@@ -12,11 +12,12 @@ public class PlayerMovment : MonoBehaviour
     public float rotationSpeed;
     public Slider healthSlider; // Slider yang akan berkurang ketika pemain bersentuhan dengan musuh
     public float maxHealth = 100f;
-    public float damageAmount = 10f;
+    public float damageAmount = 100f;
     public Canvas canvas;
     public Canvas gameOver;
     public Canvas finish;
     public string targetTag = "musuh";
+    public int jumlahMusuh = 0;
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -39,14 +40,22 @@ public class PlayerMovment : MonoBehaviour
 
        
     }
+    public void Update(){
+
+    }
     
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("musuh")) // Ganti "Enemy" dengan tag yang digunakan oleh musuh
         {
+            jumlahMusuh++;
             ReduceHealth();
             canvas.enabled = true;
             Invoke("Berdarah", 2.0f);
+            if(jumlahMusuh == 2)
+            {
+                Debug.Log("lebihdari3");
+            }
         }
         if(other.CompareTag("Finish")){
             finish.enabled = true;
@@ -56,10 +65,12 @@ public class PlayerMovment : MonoBehaviour
             {
                 Destroy(obj);
             }
+            
             Invoke("pindahKeGameOver", 3f);
             
         }
     }
+
     void Berdarah(){
         canvas.enabled = false;
     }

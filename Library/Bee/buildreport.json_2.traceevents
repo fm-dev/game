@@ -1,0 +1,356 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1699373138444688, "dur": 1138715, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373138446040, "dur": 59017, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373138505276, "dur": 1067687, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373139572981, "dur": 10422, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373139746492, "dur": 2817006, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373139746514, "dur": 32346, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373139778863, "dur": 2774991, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373142553855, "dur": 9641, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373150078477, "dur": 1439663, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373150078721, "dur": 7729, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373150086454, "dur": 31279, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373150117797, "dur": 1180507, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373151298305, "dur": 203718, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373151502026, "dur": 16114, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373250100034, "dur": 123290, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373250100052, "dur": 40012, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373250140066, "dur": 73177, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373250213244, "dur": 10079, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373250353806, "dur": 1015343, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373250353823, "dur": 22429, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373250376255, "dur": 982341, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373251358598, "dur": 10550, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373257708946, "dur": 563313, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373257708977, "dur": 1677, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373257710657, "dur": 47139, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373257757799, "dur": 246678, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373258004479, "dur": 256330, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373258260812, "dur": 11446, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373723128008, "dur": 130668, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373723128036, "dur": 43429, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373723171466, "dur": 77508, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373723248977, "dur": 9698, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373723389199, "dur": 994875, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373723389219, "dur": 21578, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373723410799, "dur": 963546, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373724374347, "dur": 9726, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373725683145, "dur": 439386, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373725683156, "dur": 3367, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373725686528, "dur": 32260, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373725718790, "dur": 218355, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373725937148, "dur": 177175, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373726114325, "dur": 8205, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373726122888, "dur": 150, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1699373725823309, "dur": 104667, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1699373725824561, "dur": 43366, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1699373725912138, "dur": 4414, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1699373725916556, "dur": 11412, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1699373725917279, "dur": 10131, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1699373725932188, "dur": 1494, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1699373725931293, "dur": 2421, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373726123330, "dur": 165, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1699373725968437, "dur":15946, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699373725984389, "dur":79, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699373725984520, "dur":333, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699373725984883, "dur":658, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699373725985543, "dur":119193, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699373726104736, "dur":172, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699373726105063, "dur":1556, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1699373725985200, "dur":357, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699373725985558, "dur":2786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699373725988364, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1699373725988344, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1699373725988439, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699373725988555, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699373725988760, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase.exe" }}
+,{ "pid":12345, "tid":1, "ts":1699373725994037, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373725996064, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373725996063, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373725996123, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373725999458, "dur":3723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726003222, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726003220, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726003306, "dur":2864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726006191, "dur":387, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726006189, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726006597, "dur":3908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726010523, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726010522, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726010667, "dur":3313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726014048, "dur":2454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726016543, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726016541, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726016639, "dur":2486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726019215, "dur":3184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726022446, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726022513, "dur":2194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726024786, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726028057, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726028055, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726028128, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726031273, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726034494, "dur":5123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699373726039854, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1699373726040436, "dur":22855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1699373726063328, "dur":4903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1699373726068282, "dur":6310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1699373726074635, "dur":3358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1699373726078012, "dur":26672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699373725985193, "dur":356, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699373725985552, "dur":2750, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699373725989572, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1699373725991343, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373725991341, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373725994030, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373725996007, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373725998306, "dur":3329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726001716, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726003954, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726003952, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726004048, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726007482, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726007480, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726007590, "dur":3700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726011305, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726011303, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726011401, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726014089, "dur":2034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726016226, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726018704, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726021015, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726021084, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726024139, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726027370, "dur":2270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726029734, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726031707, "dur":3721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726035511, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699373726037803, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1699373726039367, "dur":17048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1699373726056448, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1699373726056517, "dur":32000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1699373726088557, "dur":16060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699373725985477, "dur":133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699373725985610, "dur":2736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699373725988347, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1699373725988410, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699373725988545, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699373725988696, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373725990397, "dur":3836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373725994274, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373725994272, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373725995167, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373725997460, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373725997457, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373725997538, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373725999969, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373725999967, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726000044, "dur":3358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726003446, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726003444, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726003531, "dur":3047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726006600, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726006598, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726006687, "dur":4014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726010739, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726010737, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726010870, "dur":3685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726014628, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726016806, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726019858, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726022847, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726025159, "dur":353, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726025158, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726025522, "dur":2981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726028545, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726028543, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726028604, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726030939, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726033432, "dur":2784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699373726036259, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\StreamingAssets\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1699373726036258, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1699373726036944, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1699373726037973, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1699373726039578, "dur":3710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1699373726043325, "dur":17494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1699373726060851, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1699373726063309, "dur":10151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1699373726073501, "dur":2710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1699373726076270, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1699373726078348, "dur":26275, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699373725985437, "dur":129, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699373725985567, "dur":2756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699373725988324, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1699373725988392, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699373725988539, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699373725988658, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373725988648, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373725990353, "dur":8746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373725999194, "dur":4607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726003846, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726003844, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726003934, "dur":2871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726006822, "dur":210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726006821, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726007039, "dur":4617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726011720, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726014686, "dur":3041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726017830, "dur":3307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726021226, "dur":3191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726024524, "dur":3360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726027973, "dur":2618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726030682, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726033709, "dur":4631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699373726038407, "dur":5305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1699373726043731, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1699373726043793, "dur":30312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1699373726074142, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1699373726077567, "dur":27153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699373725985513, "dur":105, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699373725985619, "dur":2689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699373725988321, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1699373725988310, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1699373725988380, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699373725988518, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699373725988637, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699373725988705, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1699373725988703, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1699373725990356, "dur":3397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373725994037, "dur":4627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373725998748, "dur":4405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726003197, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726003196, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726003281, "dur":3487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726006783, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726006782, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726006873, "dur":3845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726010779, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726010777, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726010869, "dur":2403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726013350, "dur":2749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726016391, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726016389, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726016518, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726020310, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726023871, "dur":3400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726027360, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726030475, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726033343, "dur":5944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699373726039331, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1699373726039406, "dur":65162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1699373725985634, "dur":2708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699373725988343, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1699373725988405, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699373725988524, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699373725988586, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1699373725988642, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699373725990297, "dur":11986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726002360, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726004678, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726004676, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726004769, "dur":3446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726008234, "dur":724, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726008232, "dur":728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726008980, "dur":3036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726012084, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726015461, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726018207, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726020440, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726023077, "dur":2518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726025645, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726025643, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726025788, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726028833, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726030813, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726033439, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699373726036890, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1699373726038799, "dur":4136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":6, "ts":1699373726042968, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1699373726043039, "dur":17429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1699373726060508, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1699373726063791, "dur":10037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1699373726073881, "dur":3542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1699373726077444, "dur":27168, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699373725985753, "dur":2592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699373725988346, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1699373725988410, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699373725988505, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1699373725988564, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699373725988750, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373725988748, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373725990278, "dur":5630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373725996007, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373725998273, "dur":4328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726002658, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726002657, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726002763, "dur":2259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726005049, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726005039, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726005139, "dur":3795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726008964, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726008962, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726009223, "dur":2805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726012094, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726015033, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726018514, "dur":2316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726020885, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726020883, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726020977, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726023916, "dur":2830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726026833, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726029760, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726031746, "dur":3279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726035113, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699373726037683, "dur":21900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1699373726059631, "dur":3436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1699373726063122, "dur":5347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/level6" }}
+,{ "pid":12345, "tid":7, "ts":1699373726068506, "dur":5614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1699373726074151, "dur":2932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1699373726077115, "dur":27499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699373725985979, "dur":2345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699373725988339, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1699373725988325, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1699373725988396, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699373725988542, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699373725988656, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699373725990106, "dur":6504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1699373725996656, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373725996654, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373725996715, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373725998672, "dur":3969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726002685, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726002683, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726002795, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726005071, "dur":358, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726005070, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726005437, "dur":5055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726010512, "dur":283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Semester7\\gmae\\Gameproject\\New folder\\game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726010510, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726010803, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726013683, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726013681, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726013741, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726015877, "dur":3099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726019104, "dur":3911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726023120, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726026266, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726028967, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726028966, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726029044, "dur":2636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726031763, "dur":4266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726036144, "dur":2787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699373726039041, "dur":34335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1699373726073431, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1699373726076447, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1699373726076446, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/FAJRI/Music/GameQuizChase_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1699373726076560, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/FAJRI/Music/GameQuizChase_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1699373726078422, "dur":26212, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699373726107895, "dur":1568, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1699373726123543, "dur": 20186, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699373726122875, "dur": 20881, "ph": "X", "name": "Write chrome-trace events", "args": {} },

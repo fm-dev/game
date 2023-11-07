@@ -10,7 +10,7 @@ public class PertanyaanUi : MonoBehaviour
     public GameObject objekLain; // Referensi ke objek lain yang memiliki Rigidbody
     private Rigidbody rbObjekLain;
     public ScoreManager scoreManager;
-    public int pointsToAdd = 100;
+    public int pToAdd = 100;
     public int section;
     public string[] Easy = {
         "Apakah Abdurrahman Wahid presiden ketiga Republik Indonesia?",
@@ -56,6 +56,94 @@ public class PertanyaanUi : MonoBehaviour
         "Benar",
         "Salah"
     };
+    public string[] medium = {
+        "Iklim diindonesia adalah tropis?",
+        "Pencipta lagi Indonesia raya R.A Kartini", 
+        "Rumah gadang merupakan rumah ada dari sumater barat", 
+        "Sungai Nil merupakan sungai terpanjang di dunia?",
+        "Gurun Saraha merupakan gurun terluas di dunia?",
+        "Dinar merupakan mata uang negara Irak?",
+        "Negara Asean terdiri dari 11?",
+        "Matahari merupakan pusat peredaran tatasurya?",
+        "Indonesia dijajah Belanda 35 tahun?",
+        "Penemu mesin uap adalah Thomas Alfa Edison?",
+        "Arah jam 9 adalah arah barat?",
+        "Udara yang bergerak adalah angin?",
+        "Pusat keuangan Amerika Serikat adalah newyork?",
+        "Kota paling boros listrik diasia adalah Tokyo?",
+        "Wahana kereta luncur yang sangat cepat dan menguji adrenalin adalah kereta api?",
+        "Alat musik gambus berasal dari Riau?",
+        "Presiden Turki tahun 2022 adalah Erdogan?",  
+        "Amar makruf adalah wakil presiden Indonesia tahun 2023?",  
+        "Batu yang bisa mengapung disebut batu Apung?",  
+        "Mie yang berasal dari Jepang adalah ramen?"  
+    };
+    public string[] jwbMedium = {
+        "Benar",
+        "Salah",
+        "Benar",
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah",
+        "Salah",
+        "Benar",
+        "Benar",
+        "Benar",
+        "Benar",
+        "Salah",
+        "Benar",
+        "Benar",
+        "Salah",
+        "Benar",
+        "Benar"
+    };
+    public string[] hard = {
+        "Samudra Pasifik merupakan samudra terkecil?",
+        "Amerika merupakan negara terluas keempat didunia?", 
+        "Percampuran warna kuning dan biru adalah hijau?", 
+        "Apakah simbol L merupakan atom hidrogen",
+        "Apakah ikan paus bernafas dengan paru paru?",
+        "Seagames diadakan 4 tahun sekali?",
+        "Pencipta lagi padamu negri yaitu kusbini?",
+        "Amuba merupakan hewan terkecil?",
+        "Untuk buat halaman baru diword dengan control N?",
+        "Vatikan merupakan negara terluas didunia?",
+        "Apakah ibukota Banten diserang?",
+        "Apakah hari kebangkitan nasional tanggal 2 Mei?",
+        "Apakah benar Gorontalo disebut serambi Madinah?",
+        "Apakah negara Thailand tidak pernah dijajah?",
+        "Apakah benar bendera Belanda berwarna merah biru?",
+        "Apakah benar Dollar AS yang nilainya mempengaruhi harga didunia?",
+        "1 jam = 3600 menit?",  
+        "Ibukota Jawa tengah adalah Semarang?",  
+        "Ibukota Amerika Serikat adalah newyork?",  
+        "Menara yang ada di Paris adalah menara Pisa?"  
+    };
+     public string[] jawabanHard = {
+        "Salah",
+        "Benar",
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah",
+        "Benar",
+        "Benar",
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah",
+        "Benar",
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah",
+        "Benar",
+        "Salah",
+        "Salah"
+    };
     public Text teksCanvas;
     public SpawnMusuh spawn, spawn2, spawn3, spawn4,spawn5,spawn6,spawn7,spawn8,spawn9;
     public Canvas canvas;
@@ -79,134 +167,392 @@ public class PertanyaanUi : MonoBehaviour
     void Update ()
     {
         settingPertanyaan();
+        PlayerPrefs.SetInt("MyDataKey", pToAdd);
+        PlayerPrefs.Save(); // Simpan data ke penyimpanan PlayerPrefs
         
     }
     void settingPertanyaan(){
         Debug.Log(randomNumber);
-        teksCanvas.text = Easy[randomNumber];
+        string level = PlayerPrefs.GetString("setLevel");
+        if(level == "easy")
+        {
+            teksCanvas.text = Easy[randomNumber];
+        }
+        if(level == "medium")
+        {
+            teksCanvas.text = medium[randomNumber];
+        }
+        if(level == "hard")
+        {
+            teksCanvas.text = hard[randomNumber];
+        }
     }
     
     public void NonaktifkanCanvasOnClick()
     {
-       
-        if(jwbesey[randomNumber] == "Benar")
+        string level = PlayerPrefs.GetString("setLevel");
+        if(level == "easy")
         {
-            Score = Score + 100;
-            spawn.SpawnObject();
-            spawn2.SpawnObject();
-            spawn3.SpawnObject();
-            spawn4.SpawnObject();
-            spawn5.SpawnObject();
-            spawn6.SpawnObject();
-            spawn7.SpawnObject();
-            spawn8.SpawnObject();
-            spawn9.SpawnObject();
-            scoreManager.AddScore(pointsToAdd);
-            Destroy(objekYangAkanDihancurkan);
-             // Nonaktifkan Canvas saat tombol di-klik
-            // Mengambil semua objek dengan tag yang sesuai
-            GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
-
-            // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
-            foreach (GameObject obj in objectsWithTag)
+            if(jwbesey[randomNumber] == "Benar")
             {
-                Rigidbody rb = obj.GetComponent<Rigidbody>();
-                if (rb != null)
+                spawn.SpawnObject();
+                spawn2.SpawnObject();
+                spawn3.SpawnObject();
+                spawn4.SpawnObject();
+                spawn5.SpawnObject();
+                spawn6.SpawnObject();
+                spawn7.SpawnObject();
+                spawn8.SpawnObject();
+                spawn9.SpawnObject();
+                scoreManager.AddScore(pToAdd);
+                Destroy(objekYangAkanDihancurkan);
+                // Nonaktifkan Canvas saat tombol di-klik
+                // Mengambil semua objek dengan tag yang sesuai
+                GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
+
+                // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
+                foreach (GameObject obj in objectsWithTag)
                 {
-                    Debug.Log("masuk");
-                    rb.isKinematic = newIsKinematicValue;
+                    Rigidbody rb = obj.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        Debug.Log("masuk");
+                        rb.isKinematic = newIsKinematicValue;
+                    }
+                }
+
+            }
+            else{
+                spawn.SpawnObject();
+                spawn2.SpawnObject();
+                spawn3.SpawnObject();
+                spawn4.SpawnObject();
+                spawn5.SpawnObject();
+                spawn6.SpawnObject();
+                spawn7.SpawnObject();
+                spawn8.SpawnObject();
+                spawn9.SpawnObject();
+                canvas.enabled = false;
+                spawnlagi.SpawnObject();
+                // Mengambil semua objek dengan tag yang sesuai
+                Destroy(objekYangAkanDihancurkan);
+                GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
+
+                // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
+                foreach (GameObject obj in objectsWithTag)
+                {
+                    Rigidbody rb = obj.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        Debug.Log("masuk");
+
+                        rb.isKinematic = newIsKinematicValue;
+                    }
+                }
+            }
+        }
+        if(level == "medium")
+        {
+            if(jwbMedium[randomNumber] == "Benar")
+            {
+                spawn.SpawnObject();
+                spawn2.SpawnObject();
+                spawn3.SpawnObject();
+                spawn4.SpawnObject();
+                spawn5.SpawnObject();
+                spawn6.SpawnObject();
+                spawn7.SpawnObject();
+                spawn8.SpawnObject();
+                spawn9.SpawnObject();
+                scoreManager.AddScore(pToAdd);
+                Destroy(objekYangAkanDihancurkan);
+                // Nonaktifkan Canvas saat tombol di-klik
+                // Mengambil semua objek dengan tag yang sesuai
+                GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
+
+                // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
+                foreach (GameObject obj in objectsWithTag)
+                {
+                    Rigidbody rb = obj.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        Debug.Log("masuk");
+                        rb.isKinematic = newIsKinematicValue;
+                    }
+                }
+
+            }
+            else{
+                spawn.SpawnObject();
+                spawn2.SpawnObject();
+                spawn3.SpawnObject();
+                spawn4.SpawnObject();
+                spawn5.SpawnObject();
+                spawn6.SpawnObject();
+                spawn7.SpawnObject();
+                spawn8.SpawnObject();
+                spawn9.SpawnObject();
+                canvas.enabled = false;
+                spawnlagi.SpawnObject();
+                // Mengambil semua objek dengan tag yang sesuai
+                Destroy(objekYangAkanDihancurkan);
+                GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
+
+                // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
+                foreach (GameObject obj in objectsWithTag)
+                {
+                    Rigidbody rb = obj.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        Debug.Log("masuk");
+
+                        rb.isKinematic = newIsKinematicValue;
+                    }
                 }
             }
 
         }
-        else{
-            spawn.SpawnObject();
-            spawn2.SpawnObject();
-            spawn3.SpawnObject();
-            spawn4.SpawnObject();
-            spawn5.SpawnObject();
-            spawn6.SpawnObject();
-            spawn7.SpawnObject();
-            spawn8.SpawnObject();
-            spawn9.SpawnObject();
-            canvas.enabled = false;
-            spawnlagi.SpawnObject();
-            // Mengambil semua objek dengan tag yang sesuai
-             Destroy(objekYangAkanDihancurkan);
-            GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
-
-            // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
-            foreach (GameObject obj in objectsWithTag)
+        if(level == "hard")
+        {
+            if(jawabanHard[randomNumber] == "Benar")
             {
-                Rigidbody rb = obj.GetComponent<Rigidbody>();
-                if (rb != null)
-                {
-                    Debug.Log("masuk");
+                spawn.SpawnObject();
+                spawn2.SpawnObject();
+                spawn3.SpawnObject();
+                spawn4.SpawnObject();
+                spawn5.SpawnObject();
+                spawn6.SpawnObject();
+                spawn7.SpawnObject();
+                spawn8.SpawnObject();
+                spawn9.SpawnObject();
+                scoreManager.AddScore(pToAdd);
+                Destroy(objekYangAkanDihancurkan);
+                // Nonaktifkan Canvas saat tombol di-klik
+                // Mengambil semua objek dengan tag yang sesuai
+                GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
 
-                    rb.isKinematic = newIsKinematicValue;
+                // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
+                foreach (GameObject obj in objectsWithTag)
+                {
+                    Rigidbody rb = obj.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        Debug.Log("masuk");
+                        rb.isKinematic = newIsKinematicValue;
+                    }
+                }
+
+            }
+            else{
+                spawn.SpawnObject();
+                spawn2.SpawnObject();
+                spawn3.SpawnObject();
+                spawn4.SpawnObject();
+                spawn5.SpawnObject();
+                spawn6.SpawnObject();
+                spawn7.SpawnObject();
+                spawn8.SpawnObject();
+                spawn9.SpawnObject();
+                canvas.enabled = false;
+                spawnlagi.SpawnObject();
+                // Mengambil semua objek dengan tag yang sesuai
+                Destroy(objekYangAkanDihancurkan);
+                GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
+
+                // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
+                foreach (GameObject obj in objectsWithTag)
+                {
+                    Rigidbody rb = obj.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        Debug.Log("masuk");
+
+                        rb.isKinematic = newIsKinematicValue;
+                    }
                 }
             }
+
         }
         rbObjekLain.isKinematic = false;
         canvas.enabled = false;
         randomNumber = randomGenerator.Next(0, 17);
+        
     }
     public void salahBtn()
     {
-        if(jwbesey[randomNumber] == "Salah")
+        string level = PlayerPrefs.GetString("setLevel");
+        if(level == "easy")
         {
-            scoreManager.AddScore(pointsToAdd);
-            spawn.SpawnObject();
-            spawn2.SpawnObject();
-            spawn3.SpawnObject();
-            spawn4.SpawnObject();
-            spawn5.SpawnObject();
-            spawn6.SpawnObject();
-            spawn7.SpawnObject();
-            spawn8.SpawnObject();
-            spawn9.SpawnObject();
-            Destroy(objekYangAkanDihancurkan);
-            // Mengambil semua objek dengan tag yang sesuai
-            GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
-
-            // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
-            foreach (GameObject obj in objectsWithTag)
+            if(jwbesey[randomNumber] == "Salah")
             {
-                Rigidbody rb = obj.GetComponent<Rigidbody>();
-                if (rb != null)
+
+                scoreManager.AddScore(pToAdd);
+                spawn.SpawnObject();
+                spawn2.SpawnObject();
+                spawn3.SpawnObject();
+                spawn4.SpawnObject();
+                spawn5.SpawnObject();
+                spawn6.SpawnObject();
+                spawn7.SpawnObject();
+                spawn8.SpawnObject();
+                spawn9.SpawnObject();
+                Destroy(objekYangAkanDihancurkan);
+                // Mengambil semua objek dengan tag yang sesuai
+                GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
+
+                // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
+                foreach (GameObject obj in objectsWithTag)
                 {
-                    rb.isKinematic = newIsKinematicValue;
+                    Rigidbody rb = obj.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        rb.isKinematic = newIsKinematicValue;
+                    }
+                }
+                
+            }
+            else{
+                Destroy(objekYangAkanDihancurkan);
+                spawnlagi.SpawnObject();
+                spawn.SpawnObject();
+                spawn2.SpawnObject();
+                spawn3.SpawnObject();
+                spawn4.SpawnObject();
+                spawn5.SpawnObject();
+                spawn6.SpawnObject();
+                spawn7.SpawnObject();
+                spawn8.SpawnObject();
+                spawn9.SpawnObject();
+                // Mengambil semua objek dengan tag yang sesuai
+                GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
+
+                // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
+                foreach (GameObject obj in objectsWithTag)
+                {
+                    Rigidbody rb = obj.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        rb.isKinematic = newIsKinematicValue;
+                    }
                 }
             }
-            
         }
-        else{
-            Destroy(objekYangAkanDihancurkan);
-            spawnlagi.SpawnObject();
-            spawn.SpawnObject();
-            spawn2.SpawnObject();
-            spawn3.SpawnObject();
-            spawn4.SpawnObject();
-            spawn5.SpawnObject();
-            spawn6.SpawnObject();
-            spawn7.SpawnObject();
-            spawn8.SpawnObject();
-            spawn9.SpawnObject();
-            // Mengambil semua objek dengan tag yang sesuai
-            GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
-
-            // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
-            foreach (GameObject obj in objectsWithTag)
+        if(level == "medium")
+        {
+            if(jwbMedium[randomNumber] == "Salah")
             {
-                Rigidbody rb = obj.GetComponent<Rigidbody>();
-                if (rb != null)
+
+                scoreManager.AddScore(pToAdd);
+                spawn.SpawnObject();
+                spawn2.SpawnObject();
+                spawn3.SpawnObject();
+                spawn4.SpawnObject();
+                spawn5.SpawnObject();
+                spawn6.SpawnObject();
+                spawn7.SpawnObject();
+                spawn8.SpawnObject();
+                spawn9.SpawnObject();
+                Destroy(objekYangAkanDihancurkan);
+                // Mengambil semua objek dengan tag yang sesuai
+                GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
+
+                // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
+                foreach (GameObject obj in objectsWithTag)
                 {
-                    rb.isKinematic = newIsKinematicValue;
+                    Rigidbody rb = obj.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        rb.isKinematic = newIsKinematicValue;
+                    }
+                }
+                
+            }
+            else{
+                Destroy(objekYangAkanDihancurkan);
+                spawnlagi.SpawnObject();
+                spawn.SpawnObject();
+                spawn2.SpawnObject();
+                spawn3.SpawnObject();
+                spawn4.SpawnObject();
+                spawn5.SpawnObject();
+                spawn6.SpawnObject();
+                spawn7.SpawnObject();
+                spawn8.SpawnObject();
+                spawn9.SpawnObject();
+                // Mengambil semua objek dengan tag yang sesuai
+                GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
+
+                // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
+                foreach (GameObject obj in objectsWithTag)
+                {
+                    Rigidbody rb = obj.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        rb.isKinematic = newIsKinematicValue;
+                    }
+                }
+            }
+        }
+        if(level == "hard")
+        {
+            if(jawabanHard[randomNumber] == "Salah")
+            {
+
+                scoreManager.AddScore(pToAdd);
+                spawn.SpawnObject();
+                spawn2.SpawnObject();
+                spawn3.SpawnObject();
+                spawn4.SpawnObject();
+                spawn5.SpawnObject();
+                spawn6.SpawnObject();
+                spawn7.SpawnObject();
+                spawn8.SpawnObject();
+                spawn9.SpawnObject();
+                Destroy(objekYangAkanDihancurkan);
+                // Mengambil semua objek dengan tag yang sesuai
+                GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
+
+                // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
+                foreach (GameObject obj in objectsWithTag)
+                {
+                    Rigidbody rb = obj.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        rb.isKinematic = newIsKinematicValue;
+                    }
+                }
+                
+            }
+            else{
+                Destroy(objekYangAkanDihancurkan);
+                spawnlagi.SpawnObject();
+                spawn.SpawnObject();
+                spawn2.SpawnObject();
+                spawn3.SpawnObject();
+                spawn4.SpawnObject();
+                spawn5.SpawnObject();
+                spawn6.SpawnObject();
+                spawn7.SpawnObject();
+                spawn8.SpawnObject();
+                spawn9.SpawnObject();
+                // Mengambil semua objek dengan tag yang sesuai
+                GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag("musuh");
+
+                // Mengubah nilai isKinematic pada semua objek dengan tag yang sesuai
+                foreach (GameObject obj in objectsWithTag)
+                {
+                    Rigidbody rb = obj.GetComponent<Rigidbody>();
+                    if (rb != null)
+                    {
+                        rb.isKinematic = newIsKinematicValue;
+                    }
                 }
             }
         }
         rbObjekLain.isKinematic = false;
         canvas.enabled = false;
         randomNumber = randomGenerator.Next(0, 17);
+        PlayerPrefs.SetInt("MyDataKey", pToAdd);
+        PlayerPrefs.Save(); // Simpan data ke penyimpanan PlayerPrefs
     }
 }
